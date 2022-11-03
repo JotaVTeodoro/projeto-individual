@@ -1,0 +1,202 @@
+body{
+     
+     color:white;
+     background-color: black;
+ 
+}
+
+ul{
+    
+    display: flex; /*coloca as palavras na horizontal*/
+    justify-content: space-between; /* define o alinhamento dos itens ao longo do eixo principal*/
+    list-style-type: none; /* tira os pontos de marcação que fica no inicio da lista*/
+    align-items: center; /* centraliza textos e imagem */
+    cursor: pointer; /* muda a seta do mouse para a mao */
+    padding: 16px;
+    
+}
+
+
+a{  /* deixa a cor de menu branco e tira o sublinhado delas */
+    
+    color:white;
+    text-decoration: none;
+}
+
+h1{   /* deixa o nome verde */
+    
+    color:green;
+    text-align:center; 
+}
+
+ header img{  /* ajusta tamanho, arredonda as bordas da foto e deixa ela verde */
+            
+            width: 180px; /* mexe no tamanho da foto na horizontal */
+            height: 150px; /* mexe no tamanho da foto na vertical */
+            border-radius: 50%; /* deixa a foto redonda */
+            border: 5px solid green;
+            
+}
+
+.center{ /* centraliza imagem de perfil */
+        
+        text-align: center;
+}
+
+footer img{  /* ajusta as imagens */
+    
+           width: 60px;
+           height: 50px;
+
+}
+
+footer{  /* coloca uma imagem do lado da outra e centraliza elas */
+
+       display: flex;
+       justify-content: center;
+       margin-top: 150px;
+}
+footer a{  /* coloca um espaçamento entre as imagens no rodape e centraliza */
+
+         margin: 20px;
+         text-align: center;
+}
+
+footer p{   /* aproxima as frases nas imagens no rodape */
+
+         margin-top: 2px;
+}
+
+.container{    /* bordas do site (0px) vertical (50px) horizontal */
+
+           padding: 0px 50px;
+
+}
+
+nav a:hover{   /* quando o mouse passar no menu ele fica verde */
+
+            color: green
+}
+
+/********************************PAGINA CONTATOS*************************************/
+
+input{
+
+      width: 100%;
+      padding: 8px 0px;
+      margin:  8px 0px;
+}
+
+input[type=text]{
+
+                 height: 100px;
+}
+
+button{
+
+       background-color: white;
+       border: none;
+       width: 100px;
+       height: 30px;
+       cursor: pointer;
+
+}
+
+/*****************************************PAGINA HOBBIES************************************/
+
+.mengo{
+
+       display: flex;
+       justify-content: center;
+}
+
+.mengo img{
+
+           width: 800px;
+           height: 300px;
+           border-radius: 50%; /* deixa a foto redonda */
+           border: 5px solid rgb(93, 172, 93);
+
+}
+
+.mengo h2{
+           
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 30px;
+           
+}
+
+.jogos{
+
+        display: flex;
+        justify-content: center;
+}
+
+
+.jogos img{
+
+           width:400px;
+           height:300px;
+           border-radius: 50%; /* deixa a foto redonda */
+           border: 5px solid rgb(93, 172, 93);
+           margin: 30px;
+}
+
+.jogos h2{
+
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 30px;
+
+}
+
+.aprender{
+
+           display: flex;
+           justify-content: center;
+}
+
+.aprender  img{
+        
+               width: 400px;
+               height: 300px;
+               border-radius: 50%;
+               border: 5px solid rgb(93, 172, 93);
+               margin: 30px;
+}
+
+
+.aprender h2{
+
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             margin: 30px;
+}
+
+.filmes{
+
+        display: flex;
+        justify-content: center;
+}
+
+.filmes img{
+
+           width: 400px;
+           height: 300px;
+           border-radius: 50%;
+           border: 5px solid rgb(93, 172, 93);
+           margin: 30px;
+}
+
+.filmes h2{
+
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           margin: 30px;
+}
